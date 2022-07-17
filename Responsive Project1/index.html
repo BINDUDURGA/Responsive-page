@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive project1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a><b>Tours</b></li>
+            <li><a href="#"></a><b>Explores</b></li>
+            <li><a href="#"></a><b>About</b></li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="images/menubtn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A wonderful gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Trekking to the Mount Everest Base Camp in Nepal is in many ways like visiting a mountain museum. The only difference is that the things on display are all real. Nowhere else on earth is there such a dense concentration of mountains of such stature. Four out of ten of the world’s highest peaks are here.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Walking tour is useful in many aspects. It is a source of health and happiness. Man gets inspiration directly from the nature. He enjoys a kind of divine feeling. He move through the beauty of God’s creations. Walking is the most natural and healthy kind of travel. Man had been walking all the time till he invented his ‘first conveyance’.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Travelling to new countries gives life a wonderful experience and helps teach a person about the cultures and traditions of that country. Travelling is something that teaches a person many things as one can have many interactions with strangers and can help one learn many new things about him as well. I had a magical experience during my journey to United States of America. My main aim or my mission for going to America was for an educational purpose. I wanted to know more about the country and wanted to explore it.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A similique expedita adipisci sit molestiae suscipit consectetur maxime. Optio a omnis sed accusantium sit asperiores numquam ipsum, recusandae laborum quia rem.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/img3.png" alt="">
+                    <img src="images/img4.png" alt="">
+                    <img src="images/img5.png" alt="">
+                    <img src="images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Banjara hills, NH7, Hyderabad, Telangana | Phone:8000745696 | Email:pingme@company.com</p>
+        <p>Copyright &copy; 2022 Adventure</p>
+    </section>
+<!--<section class="tours">
+    <div class="row">
+        <div class="col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam illum repudiandae temporibus molestias omnis natus animi consectetur ab qui, quasi sint voluptatum. Reiciendis vero consectetur ipsa temporibus! Iure, dolorum quas!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <div class="image-gallery">
+                <img src="images/img3.jpg" alt="" style="width:341px; height: 282px;">
+                <img src="images/img4.png" alt="" style="width:341px; height: 282px;">
+                <img src="images/img5.png" alt="" style="width:341px; height: 282px;">
+                <img src="images/img6.png" alt="" style="width:341px; height: 282px;">
+            </div>
+        </div>
+    </div>
+</section>-->
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+    </script>
+</body>
+</html>
